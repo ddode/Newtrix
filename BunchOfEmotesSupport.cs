@@ -49,5 +49,7 @@ namespace trickyclown
                 return true;
             return false;
         }
+
+        public static bool GameAnimationIsCustomAnimation(int gameAnim) { return GameAnimationByCustomAnimation.ContainsValue(gameAnim); }
     }
 }

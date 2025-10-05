@@ -42,6 +42,7 @@ namespace trickyclown
             harmony.PatchAll(typeof(SlideAbilityPatches));
             harmony.PatchAll(typeof(WallrunLineAbilityPatches));
             harmony.PatchAll(typeof(VertAbilityPatches2));
+            harmony.PatchAll(typeof(ABPatchesTC));
             harmony.PatchAll();
             Logger.LogInfo($"Trix R 4 Kidz");
             SceneManager.sceneLoaded += OnSceneLoaded;
